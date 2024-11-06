@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb92dc8f5adce8f4d874500c67b6ebfc, type: 3}
-  m_Name: Apple
+  m_Name: Banana
   m_EditorClassIdentifier: 
   type: 5
   range: {x: 5, y: 4}
-  image: {fileID: 21300000, guid: bb52d6e46cb5f4d25ae5e616bf85c480, type: 3}
+  image: {fileID: 21300000, guid: 5743db87589284dc0bc9bab2af3dec8a, type: 3}
