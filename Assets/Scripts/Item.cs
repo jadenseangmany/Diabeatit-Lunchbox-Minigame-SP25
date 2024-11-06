@@ -7,7 +7,7 @@ using UnityEngine.Tilemaps;
 public class Item : ScriptableObject {
     public ItemType type;
     public Vector2Int range = new Vector2Int(5, 4);
-
+    
     [Header("Both")]
     public Sprite image;
 
