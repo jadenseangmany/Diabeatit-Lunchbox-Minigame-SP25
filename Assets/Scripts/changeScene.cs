@@ -10,7 +10,7 @@ public class changeScene : MonoBehaviour
     }
 
     public void GoToSceneThree() {
-        SceneManager.LoadScene("lunchBoxScene");
+        SceneManager.LoadScene("SelectionMenu");
     }
 
 }
