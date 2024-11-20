@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Avocado
   m_EditorClassIdentifier: 
   type: 5
-  points: 0
+  points: 18
   image: {fileID: 21300000, guid: f82311c807f4d46ecb13c2657a34daca, type: 3}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Tofu
   m_EditorClassIdentifier: 
   type: 0
-  points: 0
+  points: 20
   image: {fileID: 21300000, guid: b401752d758a64b24b1c84a2245bd53a, type: 3}

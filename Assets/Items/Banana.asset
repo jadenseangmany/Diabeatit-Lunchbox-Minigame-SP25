@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Banana
   m_EditorClassIdentifier: 
   type: 5
-  range: {x: 5, y: 4}
+  points: 10
   image: {fileID: 21300000, guid: 5743db87589284dc0bc9bab2af3dec8a, type: 3}
