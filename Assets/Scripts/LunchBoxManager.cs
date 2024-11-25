@@ -19,8 +19,8 @@ public class LunchBoxManager : MonoBehaviour
             InventoryItem itemInSlot = slot.GetComponentInChildren<InventoryItem>();
             if (itemInSlot == null){
                 SpawnNewItem(item, slot);
-                totalPoints += item.points;
-                updateTotalPoints();
+                totalPoints += item.points; //add points
+                updateTotalPoints(); //update total points visually
                 Debug.Log($"Added {item.type} with {item.points} points. Total points: {totalPoints}");
                 sceneData.TotalPoints = totalPoints; // Pass the total points
                 return true;
@@ -36,13 +36,13 @@ public class LunchBoxManager : MonoBehaviour
     }
 
     public void updateTotalPoints() {
-        if (totalPointsTxt != null) {
+        if (totalPointsTxt != null) { //update total points
             totalPointsTxt.text = ($"{totalPoints}");
             Debug.Log("set text");
         } else {
             Debug.Log("failed to set text");
-            totalPointsTxt = GameObject.Find("tmpPoints").GetComponent<Text>();
-            totalPointsTxt.text = ($"{totalPoints}");
+            totalPointsTxt = GameObject.Find("tmpPoints").GetComponent<Text>(); //find text gameObject if u cannot find it manually
+            totalPointsTxt.text = ($"{totalPoints}"); //then update total points
         }
     }
 
