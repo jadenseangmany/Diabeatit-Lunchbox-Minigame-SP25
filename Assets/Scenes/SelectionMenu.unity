@@ -7190,6 +7190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00811f22950e4434fb03f5d87634e221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentAfterDrag: {fileID: 0}
+  image: {fileID: 0}
 --- !u!4 &2079745353
 Transform:
   m_ObjectHideFlags: 0
@@ -7327,3 +7329,4 @@ SceneRoots:
   - {fileID: 169535718}
   - {fileID: 1321645232}
   - {fileID: 2079745353}
+  - {fileID: 221637564}
