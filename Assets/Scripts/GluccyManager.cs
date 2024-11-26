@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class GluccyManager : MonoBehaviour
 {
-    [HideInInspector] 
-    public Transform parentAfterDrag;
-    public Image image;
+    // [HideInInspector] 
+    // public Transform parentAfterDrag;
+    // public Image image;
 
     //public void changeEmotion(int emotion)
     //{

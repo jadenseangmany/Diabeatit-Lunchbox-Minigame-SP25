@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Candy
   m_EditorClassIdentifier: 
   type: 2
-  points: 0
+  points: 2
   image: {fileID: 21300000, guid: f018835cf54114a43a0df0342ae196ce, type: 3}
+  Food: candySnack

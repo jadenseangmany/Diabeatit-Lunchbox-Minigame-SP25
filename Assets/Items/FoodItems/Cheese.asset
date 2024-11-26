@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Cheese
   m_EditorClassIdentifier: 
   type: 0
-  points: 0
+  points: 10
   image: {fileID: 21300000, guid: 985813f87a86e456dbbb5f682647ab09, type: 3}
+  Food: cheeseDairy
