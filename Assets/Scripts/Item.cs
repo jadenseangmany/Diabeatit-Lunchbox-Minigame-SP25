@@ -10,6 +10,8 @@ public class Item : ScriptableObject {
     [Header("Both")]
     public Sprite image;
 
+    public string Food;
+
 }
 
 public enum ItemType

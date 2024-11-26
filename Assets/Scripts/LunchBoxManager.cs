@@ -9,8 +9,9 @@ public class LunchBoxManager : MonoBehaviour
 {
     public FoodSlot[] FoodSlots;
     public GameObject inventoryItemPrefab;
-    public static int totalPoints = 0;
-    public Text totalPointsTxt;
+    public static int totalPoints = 0; //keep track of points
+    public Text totalPointsTxt; //update this to display final points
+    
 
     public bool AddItem(Item item){
         //Find any empty slot
@@ -23,6 +24,7 @@ public class LunchBoxManager : MonoBehaviour
                 updateTotalPoints(); //update total points visually
                 Debug.Log($"Added {item.type} with {item.points} points. Total points: {totalPoints}");
                 sceneData.TotalPoints = totalPoints; // Pass the total points
+                sceneData.foodInSlots.Add(item);
                 return true;
             }
         }

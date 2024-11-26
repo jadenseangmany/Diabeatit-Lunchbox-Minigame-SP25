@@ -15,3 +15,4 @@ MonoBehaviour:
   type: 5
   points: 10
   image: {fileID: 21300000, guid: 5743db87589284dc0bc9bab2af3dec8a, type: 3}
+  Food: bananaFruit

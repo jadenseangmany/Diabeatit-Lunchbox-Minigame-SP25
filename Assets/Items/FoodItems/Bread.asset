@@ -15,3 +15,4 @@ MonoBehaviour:
   type: 6
   points: 12
   image: {fileID: 21300000, guid: b6cab7616176f4b0fada9a0dece07ecf, type: 3}
+  Food: breadGrains

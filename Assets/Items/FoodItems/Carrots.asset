@@ -15,3 +15,4 @@ MonoBehaviour:
   type: 1
   points: 22
   image: {fileID: 21300000, guid: 50d9fa9366e594075ac633e5cd8b906c, type: 3}
+  Food: carrotVeggie

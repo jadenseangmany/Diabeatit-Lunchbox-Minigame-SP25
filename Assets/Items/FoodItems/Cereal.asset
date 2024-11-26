@@ -15,3 +15,4 @@ MonoBehaviour:
   type: 6
   points: 6
   image: {fileID: 21300000, guid: b26950c339b83442f8d4f54c3febf3a2, type: 3}
+  Food: cerealGrains
