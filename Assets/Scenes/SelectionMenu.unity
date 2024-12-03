@@ -620,6 +620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7003875c83f1446d8f30fec15c8b717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FoodSlotsFinal: []
+  inventoryItemPrefab: {fileID: 0}
   totalPointsTxt: {fileID: 0}
 --- !u!1 &179470995
 GameObject:
@@ -1023,7 +1025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 651.77454, y: 326.47382}
+  m_AnchoredPosition: {x: 653.77, y: 279.67}
   m_SizeDelta: {x: 164.881, y: 116.104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &255795904
@@ -7190,8 +7192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00811f22950e4434fb03f5d87634e221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentAfterDrag: {fileID: 0}
-  image: {fileID: 0}
 --- !u!4 &2079745353
 Transform:
   m_ObjectHideFlags: 0
@@ -7329,4 +7329,3 @@ SceneRoots:
   - {fileID: 169535718}
   - {fileID: 1321645232}
   - {fileID: 2079745353}
-  - {fileID: 221637564}
