@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class AudioManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class AudioManager : MonoBehaviour
     [Header("----------- Audio Clip -----------")]
     public AudioClip background;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     private void Start()
     {
         musicSource.clip = background;
