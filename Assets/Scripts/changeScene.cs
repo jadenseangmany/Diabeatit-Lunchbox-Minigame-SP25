@@ -11,16 +11,23 @@ public class changeScene : MonoBehaviour
     public GameObject inventoryItemPrefab;
     public Text totalPointsTxt;
     public void GoToSceneTwo() {
-        SceneManager.LoadScene("startScene");
+        SceneManager.LoadScene("mainMenu");
+        LunchBoxManager.totalPoints = 0;
     }
 
-    public void GoToSceneThree() {
+    public void GoToSelectionMenu() {
         SceneManager.LoadScene("SelectionMenu");
     }
 
     public void GoToSceneFour() {
         SceneManager.LoadScene("finishScene");
         SceneManager.sceneLoaded += OnSceneLoaded; //check scene is loaded
+    }
+
+    public void GoToPickBox()
+    {
+        SceneManager.LoadScene("pickBox");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
@@ -31,7 +38,7 @@ public class changeScene : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe after handling
     }
 }
-
+    
     //NOTE: EVERY METHOD BELOW IS FOR finishScene
     public void displayTotalPoints() { //show final points in finishScene
         if (totalPointsTxt != null) {
