@@ -392,6 +392,7 @@ MonoBehaviour:
   - {fileID: 1218721475}
   - {fileID: 2052417186}
   inventoryItemPrefab: {fileID: 7006439542196570578, guid: 646cbe5b0ea47cf428b1dbbaee384cd0, type: 3}
+  totalPointsTxt: {fileID: 0}
 --- !u!4 &99642522
 Transform:
   m_ObjectHideFlags: 0

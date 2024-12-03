@@ -5,6 +5,7 @@ using UnityEngine.Rendering;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance;
     [Header ("--------- Audio Source ---------")]
     [SerializeField] AudioSource musicSource;
 
@@ -13,6 +14,12 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
         DontDestroyOnLoad(gameObject);
     }
     private void Start()

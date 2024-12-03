@@ -6,23 +6,37 @@ using UnityEngine.UI;
 
 public class GluccyManager : MonoBehaviour
 {
-    // [HideInInspector] 
-    // public Transform parentAfterDrag;
-    // public Image image;
+    public Image Gluccy;
+    public Sprite[] emotion;
+    public float resetTime = 0.25f;
+    private float timer = 0f;
+    private bool isEmotionReset = true;
+    void Start()
+    {
+        ChangeGluccy(0);
+    }
+    void Update()
+    {
+        timer += Time.deltaTime;
+        if (timer >= resetTime)
+        {
+            ChangeGluccy(0);
+        }
+    }
+    public void ChangeGluccy(int index)
+    {
+        
+        if (index >= 0 && index < emotion.Length)
+        {
+            Gluccy.sprite = emotion[index];
+            timer = 0f;
 
-    //public void changeEmotion(int emotion)
-    //{
-    //    if (emtion == 0){
-    //        expression = excited;
-    //        Debug.Log("Gluccy is normal");
-    //    }else if (n == 1){
-    //        expression = happy;
-    //        Debug.Log("Gluccy is happy");
+        }
+        else
+        {
+            Debug.LogWarning("Invalid index.");
+        }
 
-    //    }else{
-    //        expression = sad;
-    //        Debug.Log("Gluccy is sad");
+    }
 
-    //    }
-    //}
 }

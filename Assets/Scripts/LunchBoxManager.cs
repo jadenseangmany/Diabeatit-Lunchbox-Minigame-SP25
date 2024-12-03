@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class LunchBoxManager : MonoBehaviour
 {
-    public FoodSlot[] FoodSlots;
+    public  FoodSlot[] FoodSlots;
     public GameObject inventoryItemPrefab;
     public static int totalPoints = 0; //keep track of points
     public Text totalPointsTxt; //update this to display final points
