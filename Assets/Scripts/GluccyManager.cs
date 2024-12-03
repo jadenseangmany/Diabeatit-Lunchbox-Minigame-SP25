@@ -10,7 +10,6 @@ public class GluccyManager : MonoBehaviour
     public Sprite[] emotion;
     public float resetTime = 0.25f;
     private float timer = 0f;
-    private bool isEmotionReset = true;
     void Start()
     {
         ChangeGluccy(0);
