@@ -13,6 +13,7 @@ public class LunchBoxManager : MonoBehaviour
     public Text totalPointsTxt; //update this to display final points
     
 
+    //Called in ButtonManager
     public bool AddItem(Item item){
         //Find any empty slot
         for (int i = 0; i < FoodSlots.Length; i++){
@@ -31,6 +32,19 @@ public class LunchBoxManager : MonoBehaviour
         return false;
     }
 
+/*
+void SpawnNewItem(Item item, FoodSlot slot)
+need to drag the slot in the unity interface to use
+
+Instantiate
+spawns item at slot position
+
+GetComponent
+ gets the spawned items characteristics
+
+Initialize 
+allocates the spawned items characteristics to the item
+*/
     void SpawnNewItem(Item item, FoodSlot slot){
         GameObject newItemGo = Instantiate(inventoryItemPrefab, slot.transform);
         InventoryItem inventoryItem = newItemGo.GetComponent<InventoryItem>();

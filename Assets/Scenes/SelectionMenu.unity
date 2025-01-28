@@ -2405,7 +2405,6 @@ GameObject:
   - component: {fileID: 671188581}
   - component: {fileID: 671188583}
   - component: {fileID: 671188582}
-  - component: {fileID: 671188584}
   - component: {fileID: 671188585}
   m_Layer: 5
   m_Name: LunchBox
@@ -2477,25 +2476,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671188580}
   m_CullTransparentMesh: 1
---- !u!114 &671188584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671188580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03401a982f16048d7a688569bab51f50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &671188585
 MonoBehaviour:
   m_ObjectHideFlags: 0

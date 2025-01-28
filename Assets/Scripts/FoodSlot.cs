@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class FoodSlot : MonoBehaviour, IDropHandler
 {
 
+    //Old code
     public void OnDrop(PointerEventData eventData)
     {
         if (transform.childCount == 0)
