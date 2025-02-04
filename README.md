@@ -1,5 +1,5 @@
 # Diabeatit-Lunchbox-Minigame
-FA24 lunchbox minigame
+WI25 Iteration of lunchbox minigame
 # How to run the game (on unity)
 1. Open unity
 2. Go to the assets folder
