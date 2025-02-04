@@ -4,18 +4,36 @@ using UnityEngine;
 
 public class foodSelection : MonoBehaviour
 {
-    public slotManager SlotManager;  // Reference to the SlotManager
+    public LunchBoxManager lunchBoxManager; // Changed SlotManager to LunchBoxManager for clarity
 
     public void OnFoodClicked()
     {
-        // Check if there is an available slot and add the food item to it
-        if (SlotManager != null)
+        Item item = GetComponent<Item>(); // Get the item component
+
+        if (item == null)
         {
-            SlotManager.AddFoodToSlot(gameObject);
+            Debug.LogWarning("No Item component found on foodSelection object!");
+            return;
+        }
+
+        // Check if the item is a drink
+        if (item.type == ItemType.Drink)
+        {
+            // Place it in the coaster slot
+            bool placed = lunchBoxManager.AddItem(item);
+            if (!placed)
+            {
+                Debug.Log("Failed to place the drink. Coaster may be full!");
+            }
         }
         else
         {
-            Debug.LogWarning("SlotManager reference is not set in FoodSelection script.");
+            // Place in a normal slot
+            bool placed = lunchBoxManager.AddItem(item);
+            if (!placed)
+            {
+                Debug.Log("No available food slots left!");
+            }
         }
     }
 }
