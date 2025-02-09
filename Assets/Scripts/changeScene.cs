@@ -17,7 +17,17 @@ public class changeScene : MonoBehaviour
 
         // Transition from main menu to tutorial1 when "Play Game" is clicked
     public void GoToTutorial1() {
-        SceneManager.LoadScene("tutorial1");
+        SceneManager.LoadScene("Tutorial1");
+    }
+
+    public void LoadTutorial2()
+    {
+        SceneManager.LoadScene("Tutorial2");
+    }
+
+     public void LoadTutorial3()
+    {
+        SceneManager.LoadScene("Tutorial3");
     }
 
 
@@ -25,6 +35,7 @@ public class changeScene : MonoBehaviour
     public void GoToSelectionMenu() {
         SceneManager.LoadScene("SelectionMenu");
     }
+    
 
     public void GoToSceneFour() {
         SceneManager.LoadScene("finishScene");
