@@ -15,6 +15,13 @@ public class changeScene : MonoBehaviour
         LunchBoxManager.totalPoints = 0;
     }
 
+        // Transition from main menu to tutorial1 when "Play Game" is clicked
+    public void GoToTutorial1() {
+        SceneManager.LoadScene("tutorial1");
+    }
+
+
+
     public void GoToSelectionMenu() {
         SceneManager.LoadScene("SelectionMenu");
     }
