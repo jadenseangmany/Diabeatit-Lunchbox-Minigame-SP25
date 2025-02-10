@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Orange
   m_EditorClassIdentifier: 
   type: 5
-  points: 0
-  image: {fileID: 0}
-  Food: 
+  points: 15
+  image: {fileID: 21300000, guid: 4b12db45c5e9d4b0bb107be383c66708, type: 3}
+  Food: Orange - 15 points

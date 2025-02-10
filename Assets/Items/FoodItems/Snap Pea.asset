@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb92dc8f5adce8f4d874500c67b6ebfc, type: 3}
-  m_Name: Blueberries
+  m_Name: Snap Pea
   m_EditorClassIdentifier: 
-  type: 5
-  points: 22
-  image: {fileID: 21300000, guid: 545015ace94be4310b1a254d5beccba0, type: 3}
-  Food: blueberriesFruit
+  type: 1
+  points: 14
+  image: {fileID: 21300000, guid: 3ccef54f4656742da96c3c39bd835d80, type: 3}
+  Food: Snap Pea - 14 points

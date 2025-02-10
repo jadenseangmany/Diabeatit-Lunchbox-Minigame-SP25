@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb92dc8f5adce8f4d874500c67b6ebfc, type: 3}
-  m_Name: Pudding
+  m_Name: Grapes
   m_EditorClassIdentifier: 
-  type: 2
-  points: 0
-  image: {fileID: 0}
-  Food: 
+  type: 5
+  points: 12
+  image: {fileID: 21300000, guid: ceba6a2c8ed14408eb14d0d83b684f6a, type: 3}
+  Food: Grapes - 12 points
