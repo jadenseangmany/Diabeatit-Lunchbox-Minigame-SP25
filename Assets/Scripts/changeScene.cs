@@ -30,6 +30,21 @@ public class changeScene : MonoBehaviour
         SceneManager.LoadScene("Tutorial3");
     }
 
+      public void LoadTutorial4()
+    {
+        SceneManager.LoadScene("Tutorial4");
+    }
+
+      public void LoadTutorial5()
+    {
+        SceneManager.LoadScene("Tutorial5");
+    }
+          public void LoadTutorial6()
+    {
+        SceneManager.LoadScene("Tutorial6");
+    }
+
+
 
 
     public void GoToSelectionMenu() {
