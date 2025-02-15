@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54831
+50186
 Successfully changed project path to: /Users/bmiyamoto/Desktop/UCSD Year 1/Q2 ENG 100L/Diabeatit-Lunchbox-Minigame-WI25
 /Users/bmiyamoto/Desktop/UCSD Year 1/Q2 ENG 100L/Diabeatit-Lunchbox-Minigame-WI25
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,12 +58,12 @@ Successfully changed project path to: /Users/bmiyamoto/Desktop/UCSD Year 1/Q2 EN
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8572106816]  Target information:
 
-Player connection [8572106816]  * "[IP] 100.80.13.30 [Port] 0 [Flags] 2 [Guid] 2147220280 [EditorId] 2147220280 [Version] 1048832 [Id] OSXEditor(0,Beths-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8572106816]  * "[IP] 100.81.32.183 [Port] 0 [Flags] 2 [Guid] 2844318295 [EditorId] 2844318295 [Version] 1048832 [Id] OSXEditor(0,Beths-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8572106816] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8572106816] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 23.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -78,44 +78,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56341
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56186
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001902 seconds.
-- Loaded All Assemblies, in  0.332 seconds
+Registered in 0.003096 seconds.
+- Loaded All Assemblies, in  0.491 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.207 seconds
-Domain Reload Profiling: 539ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (107ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (118ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (248ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (208ms)
+	FinalizeReload (456ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (167ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,55 +124,55 @@ Domain Reload Profiling: 539ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.616 seconds
+- Loaded All Assemblies, in  1.180 seconds
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.720 seconds
-Domain Reload Profiling: 1335ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling: 2073ms
+	BeginReloadAssembly (284ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (441ms)
-		LoadAssemblies (271ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (504ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (721ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (891ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (577ms)
+		SetupLoadedEditorAssemblies (666ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.25 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5612 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (365.0 KB). Loaded Objects now: 6080.
+Unloading 34 unused Assets / (364.6 KB). Loaded Objects now: 6080.
 Memory consumption went from 227.7 MB to 227.3 MB.
-Total: 4.860292 ms (FindLiveObjects: 0.288541 ms CreateObjectMapping: 0.093292 ms MarkObjects: 4.256417 ms  DeleteObjects: 0.221333 ms)
+Total: 5.675500 ms (FindLiveObjects: 0.316334 ms CreateObjectMapping: 0.106917 ms MarkObjects: 4.962958 ms  DeleteObjects: 0.288125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,12 +187,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2264467.444792 seconds.
-  path: Assets/Scenes/finishScene.unity
-  artifactKey: Guid(c20d2fff6b10b411997f86d20ebd5472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/finishScene.unity using Guid(c20d2fff6b10b411997f86d20ebd5472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '82eb45fbe1750c370cd1ecec327e1e54') in 0.002021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
