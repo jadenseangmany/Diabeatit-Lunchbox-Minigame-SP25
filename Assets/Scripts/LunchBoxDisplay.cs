@@ -61,7 +61,8 @@ public class LunchBoxDisplay : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Mismatch between number of items and slot positions!");
+            Debug.LogError($"Mismatch between number of items and slot positions! foodInSlots.Count: {sceneData.foodInSlots.Count}, slotPositions.Count: {sceneData.slotPositions.Count}");
+
         }
     }
 
@@ -70,6 +71,6 @@ public class LunchBoxDisplay : MonoBehaviour
         GameObject newItemGo = Instantiate(inventoryItemPrefab, slot.transform);
         InventoryItem inventoryItem = newItemGo.GetComponent<InventoryItem>();
         inventoryItem.InitializeItem(item); // Initialize the item in the slot
-        newItemGo.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        newItemGo.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
     }
 }

@@ -9,7 +9,6 @@ public class LunchBoxManager : MonoBehaviour
 {
     public  FoodSlot[] FoodSlots;
     public GameObject inventoryItemPrefab;
-    public static int totalPoints = 0; //keep track of points
     public Text totalPointsTxt; //update this to display final points
     
 
@@ -46,14 +45,13 @@ public class LunchBoxManager : MonoBehaviour
                 sceneData.slotPositions.Add(i); // Save the index of the filled slot
                 
                 SpawnNewItem(item, slot); // Add item to the slot
-                totalPoints += item.points; // Add points
+                sceneData.TotalPoints += item.points; // Add points
                 updateTotalPoints(); // Update total points visually in THIS scene
 
-                Debug.Log($"Added {item.type} with {item.points} points. Total points: {totalPoints}");
+                Debug.Log($"Added {item.type} with {item.points} points. Total points: {sceneData.TotalPoints}");
                 Debug.Log($"Item text: {item.Food}");
 
                 // Store data globally for NEXT scene
-                sceneData.TotalPoints = totalPoints;
                 sceneData.foodInSlots.Add(item);
                 sceneData.receiptFood.Add(item.Food);
 
@@ -84,12 +82,12 @@ public class LunchBoxManager : MonoBehaviour
 
     public void updateTotalPoints() {
         if (totalPointsTxt != null) { //update total points
-            totalPointsTxt.text = ($"{totalPoints}");
+            totalPointsTxt.text = ($"{sceneData.TotalPoints}");
             Debug.Log("set text");
         } else {
             Debug.Log("failed to set text");
             totalPointsTxt = GameObject.Find("tmpPoints").GetComponent<Text>(); //find text gameObject if u cannot find it manually
-            totalPointsTxt.text = ($"{totalPoints}"); //then update total points
+            totalPointsTxt.text = ($"{sceneData.TotalPoints}"); //then update total points
         }
     }
 

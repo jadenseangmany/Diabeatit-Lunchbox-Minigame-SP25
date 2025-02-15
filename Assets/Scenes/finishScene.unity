@@ -418,7 +418,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Food 6
+  m_Text: 
 --- !u!222 &75077443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -497,9 +497,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Food 2
-
-'
+  m_Text: 
 --- !u!222 &93193142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -558,7 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1274,9 +1272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Food 4
-
-'
+  m_Text: 
 --- !u!222 &844741754
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1355,9 +1351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Food 3
-
-'
+  m_Text: 
 --- !u!222 &1300582103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1957,7 +1951,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Food 5
+  m_Text: 
 --- !u!222 &1743975365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2136,8 +2130,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good job! You earned        points! Click on each item to learn more about
-    a healthy diet.
+  m_text: Great job! You earned        points! Read the receipt for a breakdown of
+    your choices.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2359,7 +2353,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Food 1
+  m_Text: 
 --- !u!222 &1972538406
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2539,7 +2533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 133.4, y: 116}
+  m_AnchoredPosition: {x: 140, y: 116}
   m_SizeDelta: {x: 73.6732, y: 56.9015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2125452657
