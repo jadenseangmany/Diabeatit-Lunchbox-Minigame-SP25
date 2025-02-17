@@ -11,8 +11,11 @@ public class changeScene : MonoBehaviour
     public GameObject inventoryItemPrefab;
     public Text totalPointsTxt;
     public void GoToSceneTwo() {
+        sceneData.TotalPoints = 0;
+        sceneData.receiptFood.Clear();
+        sceneData.slotPositions.Clear();
+        sceneData.foodInSlots.Clear();
         SceneManager.LoadScene("mainMenu");
-        LunchBoxManager.totalPoints = 0;
     }
 
     public void GoToSelectionMenu() {
