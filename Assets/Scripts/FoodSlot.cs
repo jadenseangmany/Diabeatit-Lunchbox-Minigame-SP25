@@ -36,12 +36,39 @@ public class FoodSlot : MonoBehaviour
     //Old code
     public void OnDrop(PointerEventData eventData)
     {
-        if (transform.childCount == 0)
+        // Regular logic here
+        InventoryItem draggableItem = eventData.pointerDrag.GetComponent<InventoryItem>();
+
+        // If this slot is a coaster, only allow drinks
+        if (isCoaster)
         {
-            InventoryItem draggableItem = eventData.pointerDrag.GetComponent<InventoryItem>();
-            draggableItem.parentAfterDrag = transform;
-
+            if (draggableItem.item.type == ItemType.Drink)
+            {
+                if (transform.childCount == 0) // Ensure it's empty
+                {
+                    draggableItem.parentAfterDrag = transform;
+                }
+                else
+                {
+                    Debug.Log("Coaster already has a drink!");
+                }
+            }
+            else
+            {
+                Debug.Log("Only drinks can go on the coaster!");
+            }
         }
-
+        else
+        {
+            // Prevent drinks from being placed in non-coaster slots
+            if (draggableItem.item.type == ItemType.Drink)
+            {
+                Debug.Log("Drinks can only be placed on the coaster!");
+            }
+            else if (transform.childCount == 0) // Normal item placement
+            {
+                draggableItem.parentAfterDrag = transform;
+            }
+        }
     }
 }
