@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 5
   points: 16
-  image: {fileID: 21300000, guid: bb52d6e46cb5f4d25ae5e616bf85c480, type: 3}
-  Food: appleFruit
+  image: {fileID: 21300000, guid: 31a1396381b144daaac9747a3701367f, type: 3}
+  Food: Apple - 16 points
   script: Apples are awesome! They are packed with fiber and help fight colds with
     vitamin C!

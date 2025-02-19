@@ -10,6 +10,7 @@ public class GluccyManager : MonoBehaviour
     public Sprite[] emotion;
     public float resetTime = 0.25f;
     private float timer = 0f;
+    private int maxSlots = 6;
     void Start()
     {
         ChangeGluccy(0);
@@ -22,20 +23,45 @@ public class GluccyManager : MonoBehaviour
             ChangeGluccy(0);
         }
     }
+    public void DrinkChangeGluccy(int index) {
+        if (sceneData.drinkInSlot != null && sceneData.drinkInSlot.Count < 1) {
+            if (index >= 0 && index < emotion.Length)
+            {
+                Gluccy.sprite = emotion[index];
+                timer = 0f;
+                Debug.Log($"drinkInSlots.Count: {sceneData.drinkInSlot.Count}");
+            } else
+            {
+                Debug.LogWarning("Invalid index.");
+            }
+        } else
+        {
+            Debug.LogWarning("Food slots are full. Cannot update Gluccy's reaction");
+            Debug.LogWarning($"foodInSlots.Count: {sceneData.drinkInSlot.Count}");
+        }
+
+    }
+
+
     public void ChangeGluccy(int index)
     {
-        
-        if (index >= 0 && index < emotion.Length)
-        {
-            Gluccy.sprite = emotion[index];
-            timer = 0f;
+         if (sceneData.foodInSlots != null && sceneData.foodInSlots.Count < maxSlots) {
+            if (index >= 0 && index < emotion.Length)
+            {
+                Gluccy.sprite = emotion[index];
+                timer = 0f;
+                Debug.Log($"foodInSlots.Count: {sceneData.foodInSlots.Count}");
 
-        }
-        else
+            }
+            else
+            {
+                Debug.LogWarning("Invalid index.");
+            }
+        } else
         {
-            Debug.LogWarning("Invalid index.");
+            Debug.LogWarning("Food slots are full. Cannot update Gluccy's reaction");
+            Debug.LogWarning($"foodInSlots.Count: {sceneData.foodInSlots.Count}");
         }
-
     }
 
 }

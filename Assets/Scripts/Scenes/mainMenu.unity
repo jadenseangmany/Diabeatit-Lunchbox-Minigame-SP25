@@ -277,6 +277,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 2104666446}
   background: {fileID: 8300000, guid: 8fb7fe75871682f4cb964b4608a55dee, type: 3}
+  Confused: {fileID: 8300000, guid: 9acb888d0c8ed2040ba7a63c04883e83, type: 3}
+  Happy: {fileID: 8300000, guid: 27edb577547a122468768c9463e9a765, type: 3}
+  points: 0
 --- !u!4 &777412076
 Transform:
   m_ObjectHideFlags: 0
@@ -453,7 +456,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 159520022}
         m_TargetAssemblyTypeName: changeScene, Assembly-CSharp
-        m_MethodName: GoToPickBox
+        m_MethodName: GoToTutorial1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

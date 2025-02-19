@@ -10,14 +10,58 @@ public class changeScene : MonoBehaviour
     public FoodSlot[] FoodSlotsFinal; //food slots to update finishScene
     public GameObject inventoryItemPrefab;
     public Text totalPointsTxt;
+    public static bool hasPlayed = false;
     public void GoToSceneTwo() {
+        hasPlayed = true;
+        sceneData.TotalPoints = 0;
+        sceneData.receiptFood.Clear();
+        sceneData.slotPositions.Clear();
+        sceneData.foodInSlots.Clear();
+        sceneData.drinkInSlot.Clear();
         SceneManager.LoadScene("mainMenu");
-        LunchBoxManager.totalPoints = 0;
     }
+
+        // Transition from main menu to tutorial1 when "Play Game" is clicked
+    public void GoToTutorial1() {
+        if (!hasPlayed) {
+            SceneManager.LoadScene("Tutorial1");
+        } else {
+            SceneManager.LoadScene("SelectionMenu");
+        }
+        
+    }
+
+    public void LoadTutorial2()
+    {
+        SceneManager.LoadScene("Tutorial2");
+    }
+
+     public void LoadTutorial3()
+    {
+        SceneManager.LoadScene("Tutorial3");
+    }
+
+      public void LoadTutorial4()
+    {
+        SceneManager.LoadScene("Tutorial4");
+    }
+
+      public void LoadTutorial5()
+    {
+        SceneManager.LoadScene("Tutorial5");
+    }
+          public void LoadTutorial6()
+    {
+        SceneManager.LoadScene("Tutorial6");
+    }
+
+
+
 
     public void GoToSelectionMenu() {
         SceneManager.LoadScene("SelectionMenu");
     }
+    
 
     public void GoToSceneFour() {
         SceneManager.LoadScene("finishScene");

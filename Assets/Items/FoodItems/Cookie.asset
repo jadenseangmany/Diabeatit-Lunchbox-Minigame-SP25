@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   points: 2
-  image: {fileID: 21300000, guid: 9287ecda7398246b4aaa275ebdd3bd7f, type: 3}
-  Food: cookieSnack
+  image: {fileID: 21300000, guid: 37e79665681be41fca3cd0a770595e62, type: 3}
+  Food: Cookie - 2 points
   script: Cookies can taste good, but are high in calories, sugar, and saturated
     fats!

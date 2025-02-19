@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7328351093526891665}
   - component: {fileID: 6908949370844847049}
   - component: {fileID: 6204903177494090499}
+  - component: {fileID: 3043207721455514211}
   m_Layer: 5
   m_Name: FoodSlot
   m_TagString: Untagged
@@ -100,3 +101,15 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &3043207721455514211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399042642524192407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d6b4a1f59315d4e8cf208ae5c3dd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
