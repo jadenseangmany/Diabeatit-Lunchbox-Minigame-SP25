@@ -2898,3 +2898,33 @@ Start importing Assets/Scenes/finishScene.unity using Guid(c20d2fff6b10b411997f8
  -> (artifact id: 'be6d1779ca904479f2777fda1a7bdf4e') in 0.000631 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1473.713585 seconds.
+  path: Assets/Sprites/Blue Coasters.png
+  artifactKey: Guid(9c8a673c788234a0597926751556f9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Blue Coasters.png using Guid(9c8a673c788234a0597926751556f9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16b8607c812a47d184fa5ac42d7c66ff') in 0.133068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.226701 seconds.
+  path: Assets/Sprites/Pink Coaster.png
+  artifactKey: Guid(155ee1cdc7ad54342a54e8dad6a221dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pink Coaster.png using Guid(155ee1cdc7ad54342a54e8dad6a221dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d3637049bf9c687c03dbd547cc72687') in 0.036865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Quinoa .png
+  artifactKey: Guid(4aed1642f8f5e4869a4c4f77f0eb513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Quinoa .png using Guid(4aed1642f8f5e4869a4c4f77f0eb513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '955afcb19b3dd36dc48267d14288cab0') in 0.023746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

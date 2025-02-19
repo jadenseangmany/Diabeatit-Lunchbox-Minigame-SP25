@@ -2776,3 +2776,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: cefd20ead872aec2ca12cbcd33c9b088 -> 
   custom:scripting/monoscript/fileName/LunchBoxManager.cs: 13d8bfafb21c1639279b1872c436edd2 -> 
   custom:scripting/monoscript/fileName/changeScene.cs: a5a24bc24926e5454793252d7cb9853d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6301.720798 seconds.
+  path: Assets/Sprites/Purple Coaster.png
+  artifactKey: Guid(f7711472920264a818e91d726394a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Purple Coaster.png using Guid(f7711472920264a818e91d726394a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19a133a98dfdb5fdcd78877869899b5c') in 0.193802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
