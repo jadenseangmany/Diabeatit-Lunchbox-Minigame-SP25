@@ -18,6 +18,8 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         item = newItem;
         image.sprite = newItem.image;
     }
+
+    //Ignore drag
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin Drag");

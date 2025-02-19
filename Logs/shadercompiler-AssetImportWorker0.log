@@ -1,6 +1,7 @@
+<<<<<<< HEAD
 Base path: '/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2022.3.50f1/PlaybackEngines'
+=======
+Base path: '/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/PlaybackEngines'
+>>>>>>> 954840db26d3354cc811333a0c2216084150dc32
 Cmd: initializeCompiler
 
-Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
-
-Quitting shader compiler process
