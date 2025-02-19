@@ -16,3 +16,5 @@ MonoBehaviour:
   points: 10
   image: {fileID: 21300000, guid: 0f213141edf754016be291216326fad2, type: 3}
   Food: Banana - 10 points
+  script: Bananas are great for your body! They're full of fiber and potassium to
+    help your digestion.

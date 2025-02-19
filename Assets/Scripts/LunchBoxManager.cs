@@ -10,6 +10,11 @@ public class LunchBoxManager : MonoBehaviour
     public  FoodSlot[] FoodSlots;
     public GameObject inventoryItemPrefab;
     public Text totalPointsTxt; //update this to display final points
+    public Text scriptName; //"local" variable you're updating
+    public GameObject speechBubble; // Reference to the speech bubble GameObject
+    public Text allFoodText; // Reference to the allFood Text component
+    private bool hasProteinItem = false;
+
 
     // add coasterSlot
     public FoodSlot coasterSlot;
@@ -83,6 +88,16 @@ public class LunchBoxManager : MonoBehaviour
 
                 // Store data globally for NEXT scene
                 sceneData.foodInSlots.Add(item);
+                scriptName = GameObject.Find("allFood").GetComponent<Text>(); //JOANN EDIT 
+                scriptName.text = item.script;
+
+                if (item.type == ItemType.Protein)
+
+                {
+                    hasProteinItem = true;
+                    EnableSpeechBubbleAndText(true);
+                }
+
                 sceneData.receiptFood.Add(item.Food);
 
                 return true;
@@ -121,5 +136,16 @@ public class LunchBoxManager : MonoBehaviour
         }
     }
 
+    private void EnableSpeechBubbleAndText(bool enable)
+    {
+        if (speechBubble != null)
+        {
+            speechBubble.SetActive(enable); // Enable or disable the speech bubble
+        }
 
+        if (allFoodText != null)
+        {
+            allFoodText.gameObject.SetActive(enable);
+        }
+    }
 }

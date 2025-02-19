@@ -12,6 +12,8 @@ public class Item : ScriptableObject {
 
     public string Food;
 
+    public string script;
+
 }
 
 public enum ItemType

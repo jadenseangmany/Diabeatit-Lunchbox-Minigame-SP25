@@ -16,3 +16,5 @@ MonoBehaviour:
   points: 22
   image: {fileID: 21300000, guid: fffa43876d67849e8a014ea2efee5eff, type: 3}
   Food: Fish - 22 points
+  script: Fish is like a superhero food! It's packed with omega-3 fatty acids that
+    help your heart and brain stay super healthy.

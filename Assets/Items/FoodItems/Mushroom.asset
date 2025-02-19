@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb92dc8f5adce8f4d874500c67b6ebfc, type: 3}
-  m_Name: Mushroom
+  m_Name: Ham
   m_EditorClassIdentifier: 
   type: 0
-  points: 10
-  image: {fileID: 21300000, guid: fe821d4950b7846f89077af44944b890, type: 3}
-  Food: Mushroom - 10 points
+  points: 6
+  image: {fileID: 21300000, guid: 055c96afc83a84e5bb10de4376bc07c8, type: 3}
+  Food: hamProtein
+  script: "Deli ham can make your sandwich tasty and gives you protein for energy,
+    but it\u2019s good to eat it sometimes, not all the time."
