@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb92dc8f5adce8f4d874500c67b6ebfc, type: 3}
-  m_Name: Broccoli
+  m_Name: Bell Pepper
   m_EditorClassIdentifier: 
   type: 1
-  points: 20
+  points: 16
   image: {fileID: 21300000, guid: 244b5a038ea2b489681b082ce110ef2f, type: 3}
-  Food: Broccoli - 20 points
+  Food: Bell Pepper - 16 points
+  script: Bell peppers are crunchy and full of vitamin C to keep your immune system
+    strong!

@@ -13,7 +13,7 @@ public class LunchBoxManager : MonoBehaviour
     public Text scriptName; //"local" variable you're updating
     public GameObject speechBubble; // Reference to the speech bubble GameObject
     public Text allFoodText; // Reference to the allFood Text component
-    private bool hasProteinItem = false;
+    //private bool hasProteinItem = false;
 
 
     // add coasterSlot
@@ -60,6 +60,11 @@ public class LunchBoxManager : MonoBehaviour
                 // Store data globally for NEXT scene
                 sceneData.drinkInSlot.Add(item);
                 sceneData.receiptFood.Add(item.Food);
+
+                //Gluccy's script
+                scriptName = GameObject.Find("allFood").GetComponent<Text>(); //JOANN EDIT 
+                scriptName.text = item.script;
+
                 return true;
             }
             else
@@ -88,17 +93,18 @@ public class LunchBoxManager : MonoBehaviour
 
                 // Store data globally for NEXT scene
                 sceneData.foodInSlots.Add(item);
+                sceneData.receiptFood.Add(item.Food);
+
+                // Gluccy's script
                 scriptName = GameObject.Find("allFood").GetComponent<Text>(); //JOANN EDIT 
                 scriptName.text = item.script;
 
-                if (item.type == ItemType.Protein)
+                /*if (item.type == ItemType.Protein)
 
                 {
                     hasProteinItem = true;
                     EnableSpeechBubbleAndText(true);
-                }
-
-                sceneData.receiptFood.Add(item.Food);
+                }*/
 
                 return true;
             }

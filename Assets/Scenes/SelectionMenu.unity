@@ -6272,10 +6272,10 @@ PrefabInstance:
     - target: {fileID: 1806084227617772499, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 244b5a038ea2b489681b082ce110ef2f, type: 3}
+      objectReference: {fileID: 21300000, guid: 6eb93260368a848268f469086c1b0c59, type: 3}
     - target: {fileID: 6742567452749897124, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_Name
-      value: SpawnBroccoli
+      value: SpawnBellPepper
       objectReference: {fileID: 0}
     - target: {fileID: 7289029450838292879, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -6363,11 +6363,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7754521525788078995, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 106.9123
+      value: 97.1085
       objectReference: {fileID: 0}
     - target: {fileID: 7754521525788078995, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 121.9435
+      value: 100.3751
       objectReference: {fileID: 0}
     - target: {fileID: 7754521525788078995, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6399,11 +6399,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7754521525788078995, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 448
+      value: 439
       objectReference: {fileID: 0}
     - target: {fileID: 7754521525788078995, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -63.338
+      value: -50.188
       objectReference: {fileID: 0}
     - target: {fileID: 7754521525788078995, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
