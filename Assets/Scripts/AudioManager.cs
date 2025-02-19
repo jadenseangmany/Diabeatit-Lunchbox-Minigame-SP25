@@ -6,11 +6,12 @@ using UnityEngine.Rendering;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    [Header ("--------- Audio Source ---------")]
+    [Header("--------- Audio Source ---------")]
     [SerializeField] AudioSource musicSource;
 
     [Header("----------- Audio Clip -----------")]
     public AudioClip background;
+
 
     private void Awake()
     {
