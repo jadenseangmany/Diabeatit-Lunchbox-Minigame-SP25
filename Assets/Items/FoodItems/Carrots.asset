@@ -16,3 +16,5 @@ MonoBehaviour:
   points: 22
   image: {fileID: 21300000, guid: 50d9fa9366e594075ac633e5cd8b906c, type: 3}
   Food: carrotVeggie
+  script: Did you know that eating carrots 3 times a week helps your body make vitamin
+    A which keeps your heart and lungs strong?

@@ -16,3 +16,5 @@ MonoBehaviour:
   points: 18
   image: {fileID: 21300000, guid: 7f928f94490b143a8a5dd20400ccf215, type: 3}
   Food: chickenProtein
+  script: Chicken is a super food that gives you lots of protein to help you grow
+    strong. Just remember having veggies and fruits too.

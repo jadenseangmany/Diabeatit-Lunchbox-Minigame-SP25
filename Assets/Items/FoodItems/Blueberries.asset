@@ -16,3 +16,5 @@ MonoBehaviour:
   points: 22
   image: {fileID: 21300000, guid: 545015ace94be4310b1a254d5beccba0, type: 3}
   Food: blueberriesFruit
+  script: Blueberries have antioxidants to protect your heart and keep your brain
+    sharp!

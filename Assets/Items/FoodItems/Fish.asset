@@ -16,3 +16,5 @@ MonoBehaviour:
   points: 22
   image: {fileID: 21300000, guid: f50b26be6a29d4bd4b1903d57a1e0138, type: 3}
   Food: fishProtein
+  script: Fish is like a superhero food! It's packed with omega-3 fatty acids that
+    help your heart and brain stay super healthy.

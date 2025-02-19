@@ -11,6 +11,11 @@ public class LunchBoxManager : MonoBehaviour
     public GameObject inventoryItemPrefab;
     public static int totalPoints = 0; //keep track of points
     public Text totalPointsTxt; //update this to display final points
+    public Text scriptName; //"local" variable you're updating
+    public GameObject speechBubble; // Reference to the speech bubble GameObject
+    public Text allFoodText; // Reference to the allFood Text component
+    private bool hasProteinItem = false;
+
     
 
     public bool AddItem(Item item){
@@ -25,6 +30,16 @@ public class LunchBoxManager : MonoBehaviour
                 Debug.Log($"Added {item.type} with {item.points} points. Total points: {totalPoints}");
                 sceneData.TotalPoints = totalPoints; // Pass the total points
                 sceneData.foodInSlots.Add(item);
+                scriptName = GameObject.Find("allFood").GetComponent<Text>(); //JOANN EDIT 
+                scriptName.text = item.script;
+
+                if (item.type == ItemType.Protein)
+
+                {
+                    hasProteinItem = true;
+                    EnableSpeechBubbleAndText(true);
+                }
+
                 return true;
             }
         }
@@ -48,5 +63,16 @@ public class LunchBoxManager : MonoBehaviour
         }
     }
 
+    private void EnableSpeechBubbleAndText(bool enable)
+    {
+        if (speechBubble != null)
+        {
+            speechBubble.SetActive(enable); // Enable or disable the speech bubble
+        }
 
+        if (allFoodText != null)
+        {
+            allFoodText.gameObject.SetActive(enable);
+        }
+    }
 }
