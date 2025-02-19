@@ -12,6 +12,38 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenu.unity
     guid: cd79ef448d15f4bc69115a96a7eadbb3
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/Tutorial5.unity
+    guid: 9c0d6db4b5f034df6b79c2c7b7a1bd9f
+  - enabled: 1
+    path: Assets/Scenes/Tutorial4.unity
+    guid: 1501e5cf3718141e3bb1515293020194
+  - enabled: 1
+    path: Assets/Scenes/Tutorial6.unity
+    guid: 7f0e4dd4fcb644fdb9e5261717e0e518
+  - enabled: 1
+    path: Assets/Scenes/Tutorial2.unity
+    guid: c1628f034b53245379090e621fce4536
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.unity
+    guid: 1faec4b1d9ed74ca999d8507daa94a19
+  - enabled: 1
+    path: Assets/Scenes/Tutorial3.unity
+    guid: a21d94b95285e43b19c5eda8cf3d8f59
+  - enabled: 1
+    path: Assets/Scenes/finishScene.unity
+    guid: c20d2fff6b10b411997f86d20ebd5472
+  - enabled: 1
+    path: Assets/Scenes/pickBox.unity
+    guid: e4cf976f503824448a768aac59aecdb4
+  - enabled: 1
+    path: Assets/Scenes/SelectionMenu.unity
+    guid: e115f0be113c04eb7ac576196e7fe2f9
+  - enabled: 1
+    path: Assets/Scenes/UnusedScenes/startScene.unity
+    guid: 323fde44e5b8447eead35241b97e6b2e
+  - enabled: 1
+=======
     path: Assets/Scenes/UnusedScenes/startScene.unity
     path: Assets/Scenes/UnusedScenes/startScene.unity
     guid: 323fde44e5b8447eead35241b97e6b2e
@@ -25,6 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SelectionMenu.unity
     guid: e115f0be113c04eb7ac576196e7fe2f9
   - enabled: 1
+>>>>>>> 954840db26d3354cc811333a0c2216084150dc32
     path: Assets/Scenes/UnusedScenes/lunchBoxScene.unity
     guid: 8a8ccf81069ec47de9a58c96cdced3ec
   - enabled: 1

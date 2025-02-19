@@ -456,7 +456,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 159520022}
         m_TargetAssemblyTypeName: changeScene, Assembly-CSharp
-        m_MethodName: GoToPickBox
+        m_MethodName: GoToTutorial1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
