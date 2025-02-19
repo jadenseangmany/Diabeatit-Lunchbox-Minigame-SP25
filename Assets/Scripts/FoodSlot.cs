@@ -8,6 +8,7 @@ public class FoodSlot : MonoBehaviour
 {
     private Item storedItem; // ScriptableObject storing the food's image & data
     private Image foodImage; // UI Image to display the food
+    public bool isCoaster = false; // Mark this slot as a coaster if true
 
     void Awake()
     {
@@ -33,7 +34,6 @@ public class FoodSlot : MonoBehaviour
     }
 
 
-    //Old code
     public void OnDrop(PointerEventData eventData)
     {
         // Regular logic here

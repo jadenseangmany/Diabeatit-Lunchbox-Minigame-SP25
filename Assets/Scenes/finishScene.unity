@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 104733841}
   - component: {fileID: 104733843}
   - component: {fileID: 104733842}
+  - component: {fileID: 104733844}
   m_Layer: 5
   m_Name: coaster
   m_TagString: Untagged
@@ -540,8 +541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 84, y: -80}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 63, y: -92}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104733842
 MonoBehaviour:
@@ -581,6 +582,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104733840}
   m_CullTransparentMesh: 1
+--- !u!114 &104733844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104733840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d6b4a1f59315d4e8cf208ae5c3dd4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCoaster: 1
 --- !u!1 &152313281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,12 +1034,13 @@ RectTransform:
   - {fileID: 844741752}
   - {fileID: 1743975363}
   - {fileID: 75077441}
+  - {fileID: 536294955}
   m_Father: {fileID: 1310865520}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -331.09, y: -12.7476}
-  m_SizeDelta: {x: 276.9917, y: 477.2322}
+  m_AnchoredPosition: {x: -331.09, y: -18.455395}
+  m_SizeDelta: {x: 276.9917, y: 488.6478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476028770
 MonoBehaviour:
@@ -1064,6 +1079,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476028768}
+  m_CullTransparentMesh: 1
+--- !u!1 &536294954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536294955}
+  - component: {fileID: 536294957}
+  - component: {fileID: 536294956}
+  m_Layer: 5
+  m_Name: food7_txt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &536294955
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536294954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 476028769}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0045819, y: -162}
+  m_SizeDelta: {x: 208.4945, y: 25.2688}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &536294956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536294954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &536294957
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536294954}
   m_CullTransparentMesh: 1
 --- !u!1 &813866569
 GameObject:
@@ -1188,6 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c032ba08a004641788ca6818f2ad21d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coasterSlot: {fileID: 104733844}
   FoodSlots:
   - {fileID: 442431106}
   - {fileID: 379771497}

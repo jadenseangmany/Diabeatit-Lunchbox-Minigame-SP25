@@ -47,11 +47,14 @@ public class LunchBoxManager : MonoBehaviour
             if (itemInCoaster == null) // Ensure it's empty before placing
             {
                 SpawnNewItem(item, coasterSlot);
-                totalPoints += item.points; // Add points
+                sceneData.TotalPoints += item.points; // Pass the total points
                 updateTotalPoints(); // Update total points visually
-                Debug.Log($"Added {item.type} with {item.points} points to the coaster. Total points: {totalPoints}");
-                sceneData.TotalPoints = totalPoints; // Pass the total points
-                sceneData.foodInSlots.Add(item);
+                Debug.Log($"Added {item.type} with {item.points} points. Total points: {sceneData.TotalPoints}");
+                Debug.Log($"Item text: {item.Food}");
+
+                // Store data globally for NEXT scene
+                sceneData.drinkInSlot.Add(item);
+                sceneData.receiptFood.Add(item.Food);
                 return true;
             }
             else

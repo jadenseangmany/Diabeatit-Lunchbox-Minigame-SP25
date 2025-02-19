@@ -3,13 +3,25 @@ using UnityEngine.UI;
 
 public class LunchBoxDisplay : MonoBehaviour
 {
+    public FoodSlot coasterSlot;
     public FoodSlot[] FoodSlots;  // Array of the FoodSlots in finalScene
+    
     public GameObject inventoryItemPrefab; // Prefab for InventoryItem
     public Text food1, food2, food3, food4, food5, food6; //declare foods
 
     void Start()
     {
+        LoadDrink();
         LoadItemsFromSceneData();
+    }
+
+    void LoadDrink()
+    {
+        //make sure there is a item in the slot
+        if (sceneData.drinkInSlot.Count == 1)
+        {
+            SpawnDrinkInSlot(sceneData.drinkInSlot[0], coasterSlot);
+        }
     }
 
     void LoadItemsFromSceneData()
@@ -32,30 +44,34 @@ public class LunchBoxDisplay : MonoBehaviour
                 }
             }
 
-            if (sceneData.foodInSlots.Count >= 1) {
+            if (sceneData.receiptFood.Count >= 1) {
                 food1 = GameObject.Find("food1_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 if (food1 == null) Debug.LogError("food1_txt not found in scene!");
                 food1.text = (sceneData.receiptFood[0]); //then update total points
             }
-            if (sceneData.foodInSlots.Count >= 2) {
+            if (sceneData.receiptFood.Count >= 2) {
                 food2 = GameObject.Find("food2_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 food2.text = (sceneData.receiptFood[1]); //then update total points
             }
-            if (sceneData.foodInSlots.Count >= 3) {
+            if (sceneData.receiptFood.Count >= 3) {
                 food3 = GameObject.Find("food3_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 food3.text = (sceneData.receiptFood[2]); //then update total points
             }
-            if (sceneData.foodInSlots.Count >= 4) {
+            if (sceneData.receiptFood.Count >= 4) {
                 food4 = GameObject.Find("food4_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 food4.text = (sceneData.receiptFood[3]); //then update total points
             }
-            if (sceneData.foodInSlots.Count >= 5) {
+            if (sceneData.receiptFood.Count >= 5) {
                 food5 = GameObject.Find("food5_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 food5.text = (sceneData.receiptFood[4]); //then update total points
             }
-            if (sceneData.foodInSlots.Count >= 6) {
+            if (sceneData.receiptFood.Count >= 6) {
                 food5 = GameObject.Find("food6_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 food5.text = (sceneData.receiptFood[5]); //then update total points
+            }
+            if (sceneData.receiptFood.Count >= 7) {
+                food5 = GameObject.Find("food7_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
+                food5.text = (sceneData.receiptFood[6]); //then update total points
             }
             
         }
@@ -72,5 +88,12 @@ public class LunchBoxDisplay : MonoBehaviour
         InventoryItem inventoryItem = newItemGo.GetComponent<InventoryItem>();
         inventoryItem.InitializeItem(item); // Initialize the item in the slot
         newItemGo.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+    }
+    void SpawnDrinkInSlot(Item item, FoodSlot slot)
+    {
+        GameObject newItemGo = Instantiate(inventoryItemPrefab, slot.transform);
+        InventoryItem inventoryItem = newItemGo.GetComponent<InventoryItem>();
+        inventoryItem.InitializeItem(item); // Initialize the item in the slot
+        newItemGo.transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
     }
 }

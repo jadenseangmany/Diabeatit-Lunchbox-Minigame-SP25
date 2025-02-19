@@ -23,9 +23,29 @@ public class GluccyManager : MonoBehaviour
             ChangeGluccy(0);
         }
     }
+    public void DrinkChangeGluccy(int index) {
+        if (sceneData.drinkInSlot != null && sceneData.drinkInSlot.Count < 1) {
+            if (index >= 0 && index < emotion.Length)
+            {
+                Gluccy.sprite = emotion[index];
+                timer = 0f;
+                Debug.Log($"drinkInSlots.Count: {sceneData.drinkInSlot.Count}");
+            } else
+            {
+                Debug.LogWarning("Invalid index.");
+            }
+        } else
+        {
+            Debug.LogWarning("Food slots are full. Cannot update Gluccy's reaction");
+            Debug.LogWarning($"foodInSlots.Count: {sceneData.drinkInSlot.Count}");
+        }
+
+    }
+
+
     public void ChangeGluccy(int index)
     {
-        if (sceneData.foodInSlots != null && sceneData.foodInSlots.Count < maxSlots) {
+         if (sceneData.foodInSlots != null && sceneData.foodInSlots.Count < maxSlots) {
             if (index >= 0 && index < emotion.Length)
             {
                 Gluccy.sprite = emotion[index];
@@ -40,11 +60,8 @@ public class GluccyManager : MonoBehaviour
         } else
         {
             Debug.LogWarning("Food slots are full. Cannot update Gluccy's reaction");
-            Debug.LogWarning("foodInSlots.Count: {sceneData.foodInSlots.Count}");
+            Debug.LogWarning($"foodInSlots.Count: {sceneData.foodInSlots.Count}");
         }
-        
-        
-
     }
 
 }

@@ -15,6 +15,7 @@ public class changeScene : MonoBehaviour
         sceneData.receiptFood.Clear();
         sceneData.slotPositions.Clear();
         sceneData.foodInSlots.Clear();
+        sceneData.drinkInSlot.Clear();
         SceneManager.LoadScene("mainMenu");
     }
 
