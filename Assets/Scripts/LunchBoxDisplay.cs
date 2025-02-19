@@ -44,6 +44,7 @@ public class LunchBoxDisplay : MonoBehaviour
                 }
             }
 
+            //print in receipt
             if (sceneData.receiptFood.Count >= 1) {
                 food1 = GameObject.Find("food1_txt").GetComponent<Text>(); //find text gameObject if u cannot find it manually
                 if (food1 == null) Debug.LogError("food1_txt not found in scene!");

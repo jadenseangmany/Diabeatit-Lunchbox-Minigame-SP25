@@ -10,7 +10,9 @@ public class changeScene : MonoBehaviour
     public FoodSlot[] FoodSlotsFinal; //food slots to update finishScene
     public GameObject inventoryItemPrefab;
     public Text totalPointsTxt;
+    public static bool hasPlayed = false;
     public void GoToSceneTwo() {
+        hasPlayed = true;
         sceneData.TotalPoints = 0;
         sceneData.receiptFood.Clear();
         sceneData.slotPositions.Clear();
@@ -21,7 +23,12 @@ public class changeScene : MonoBehaviour
 
         // Transition from main menu to tutorial1 when "Play Game" is clicked
     public void GoToTutorial1() {
-        SceneManager.LoadScene("Tutorial1");
+        if (!hasPlayed) {
+            SceneManager.LoadScene("Tutorial1");
+        } else {
+            SceneManager.LoadScene("SelectionMenu");
+        }
+        
     }
 
     public void LoadTutorial2()
