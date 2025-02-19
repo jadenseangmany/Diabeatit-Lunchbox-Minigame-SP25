@@ -721,7 +721,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 6e05a9c8e28754fb0adb49443bc1ab62, type: 3}
     - target: {fileID: 3837350654098440002, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Name
-      value: PrupleBox
+      value: PurpleBox
       objectReference: {fileID: 0}
     - target: {fileID: 4177927941813000937, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Pivot.x
