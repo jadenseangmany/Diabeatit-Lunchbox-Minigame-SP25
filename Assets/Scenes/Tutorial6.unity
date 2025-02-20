@@ -2464,6 +2464,10 @@ MonoBehaviour:
   - {fileID: 0}
   inventoryItemPrefab: {fileID: 7006439542196570578, guid: 646cbe5b0ea47cf428b1dbbaee384cd0, type: 3}
   totalPointsTxt: {fileID: 0}
+  scriptName: {fileID: 0}
+  speechBubble: {fileID: 0}
+  allFoodText: {fileID: 0}
+  coasterSlot: {fileID: 0}
 --- !u!4 &667662643
 Transform:
   m_ObjectHideFlags: 0
@@ -3239,7 +3243,7 @@ PrefabInstance:
     - target: {fileID: 1806084227617772499, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5743db87589284dc0bc9bab2af3dec8a, type: 3}
+      objectReference: {fileID: 21300000, guid: 31a1396381b144daaac9747a3701367f, type: 3}
     - target: {fileID: 6742567452749897124, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_Name
       value: SpawnBanana
@@ -6427,7 +6431,7 @@ PrefabInstance:
     - target: {fileID: 1806084227617772499, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bb52d6e46cb5f4d25ae5e616bf85c480, type: 3}
+      objectReference: {fileID: 21300000, guid: 0f213141edf754016be291216326fad2, type: 3}
     - target: {fileID: 6742567452749897124, guid: 7cf0cdfd90cb64295b77db194404372a, type: 3}
       propertyPath: m_Name
       value: SpawnApple
