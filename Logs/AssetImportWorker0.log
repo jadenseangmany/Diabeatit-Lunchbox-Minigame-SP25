@@ -803,3 +803,175 @@ Start importing Assets/Scenes/Tutorial6.unity using Guid(7f0e4dd4fcb644fdb9e5261
  -> (artifact id: '343c1c55ac0b7c12c6046c2b7d25f663') in 0.002155 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 170.275528 seconds.
+  path: Assets/Items/FoodItems/Candy.asset
+  artifactKey: Guid(f454a3297d0a349499a6f39e123513d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Candy.asset using Guid(f454a3297d0a349499a6f39e123513d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '88b939fe7e9b8f51c2b5c53d76ba4b37') in 0.018127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.372876 seconds.
+  path: Assets/Items/FoodItems/Cereal.asset
+  artifactKey: Guid(ead6f5495740a4abdb8c2b85e1b03bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Cereal.asset using Guid(ead6f5495740a4abdb8c2b85e1b03bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a2a5212fda82754406eb7bec4e0fc2a') in 0.008492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.058021 seconds.
+  path: Assets/Items/FoodItems/Chicken.asset
+  artifactKey: Guid(979880245b7334b7b8faa62033164a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Chicken.asset using Guid(979880245b7334b7b8faa62033164a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '73aa15802044e75befcc0da435b3c68f') in 0.004813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 336.783841 seconds.
+  path: Assets/Items/FoodItems/Chips.asset
+  artifactKey: Guid(8c17cf888f8a64e35916a669fbc6eecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Chips.asset using Guid(8c17cf888f8a64e35916a669fbc6eecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c4d279abfff1e057ef5e32185178212') in 0.008436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.178406 seconds.
+  path: Assets/Items/FoodItems/Cookie.asset
+  artifactKey: Guid(1ce52f08a5d3040e2b18e5cd04e488bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Cookie.asset using Guid(1ce52f08a5d3040e2b18e5cd04e488bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bbbe50effc99d6b7be231ff8a722c91c') in 0.003309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (320.1 KB). Loaded Objects now: 6267.
+Memory consumption went from 108.9 MB to 108.6 MB.
+Total: 65.173263 ms (FindLiveObjects: 1.672929 ms CreateObjectMapping: 0.605608 ms MarkObjects: 62.594916 ms  DeleteObjects: 0.298515 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.968454 seconds.
+  path: Assets/Items/FoodItems/Cookie.asset
+  artifactKey: Guid(1ce52f08a5d3040e2b18e5cd04e488bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Cookie.asset using Guid(1ce52f08a5d3040e2b18e5cd04e488bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '46279e74f013b79a1b42da3fcecb45a8') in 0.017207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 149.981918 seconds.
+  path: Assets/Items/FoodItems/Corn.asset
+  artifactKey: Guid(ab54c83a434ff40cb9571a775289877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Corn.asset using Guid(ab54c83a434ff40cb9571a775289877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4193c33f7db46491f6b1fe8a248ca435') in 0.006972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 311.573720 seconds.
+  path: Assets/Items/FoodItems/Crackers.asset
+  artifactKey: Guid(9b710e761da3046f5b327e55477dfa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Crackers.asset using Guid(9b710e761da3046f5b327e55477dfa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1627c32db855607cfc24343b56017fe1') in 0.040648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Items/FoodItems/Eggs.asset
+  artifactKey: Guid(4b0665ac2f2ff4830a731e32261062dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Eggs.asset using Guid(4b0665ac2f2ff4830a731e32261062dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5fd8ec8d5dcbb6c159f49172c0c43f74') in 0.009407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (320.0 KB). Loaded Objects now: 6267.
+Memory consumption went from 107.7 MB to 107.4 MB.
+Total: 74.808870 ms (FindLiveObjects: 2.010725 ms CreateObjectMapping: 0.694185 ms MarkObjects: 71.738850 ms  DeleteObjects: 0.363429 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.485507 seconds.
+  path: Assets/Items/FoodItems/Eggs.asset
+  artifactKey: Guid(4b0665ac2f2ff4830a731e32261062dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Eggs.asset using Guid(4b0665ac2f2ff4830a731e32261062dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77f0e29ef30ad27c704f9250cb2fa902') in 0.027345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 100.674179 seconds.
+  path: Assets/Items/FoodItems/FrenchFries.asset
+  artifactKey: Guid(74ea09266b83841a3ad03e1b731eacbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/FrenchFries.asset using Guid(74ea09266b83841a3ad03e1b731eacbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e44ab45420c2e2b7a6b4fa64ed6c713') in 0.011293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 202.162799 seconds.
+  path: Assets/Items/FoodItems/Granola Bar.asset
+  artifactKey: Guid(3d7e9334d03554e84bc28d0d0e8e2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Granola Bar.asset using Guid(3d7e9334d03554e84bc28d0d0e8e2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33de4f2656172782026d0c11ef621cec') in 0.012437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 387.892605 seconds.
+  path: Assets/Items/FoodItems/String Cheese.asset
+  artifactKey: Guid(7445aaaec015a4b40bb8325e542682d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/String Cheese.asset using Guid(7445aaaec015a4b40bb8325e542682d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '67e587d039346c742b1ef1dbc0e84eee') in 0.036969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 117.966346 seconds.
+  path: Assets/Items/FoodItems/Tofu.asset
+  artifactKey: Guid(25efb6d0e810043f7b942a45dd66062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/FoodItems/Tofu.asset using Guid(25efb6d0e810043f7b942a45dd66062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b94a375b29f8e00f8e3844c4e731e926') in 0.007918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
