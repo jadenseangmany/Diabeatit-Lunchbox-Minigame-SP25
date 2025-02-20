@@ -26,7 +26,7 @@ public class changeScene : MonoBehaviour
         if (!hasPlayed) {
             SceneManager.LoadScene("Tutorial1");
         } else {
-            SceneManager.LoadScene("SelectionMenu");
+            SceneManager.LoadScene("pickBox");
         }
         
     }
