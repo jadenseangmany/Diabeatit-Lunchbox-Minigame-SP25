@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -277,9 +277,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 2104666446}
   background: {fileID: 8300000, guid: 8fb7fe75871682f4cb964b4608a55dee, type: 3}
-  Confused: {fileID: 8300000, guid: 9acb888d0c8ed2040ba7a63c04883e83, type: 3}
-  Happy: {fileID: 8300000, guid: 27edb577547a122468768c9463e9a765, type: 3}
-  points: 0
 --- !u!4 &777412076
 Transform:
   m_ObjectHideFlags: 0
@@ -407,7 +404,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 311, y: -188}
+  m_AnchoredPosition: {x: 252, y: -175}
   m_SizeDelta: {x: 273, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177890572
@@ -1073,7 +1070,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.000061035, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955616303
 MonoBehaviour:
