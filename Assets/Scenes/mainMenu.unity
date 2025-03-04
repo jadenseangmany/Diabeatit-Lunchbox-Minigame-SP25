@@ -276,10 +276,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 2104666446}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   background: {fileID: 8300000, guid: 8fb7fe75871682f4cb964b4608a55dee, type: 3}
   Confused: {fileID: 8300000, guid: 9acb888d0c8ed2040ba7a63c04883e83, type: 3}
   Happy: {fileID: 8300000, guid: 27edb577547a122468768c9463e9a765, type: 3}
   points: 0
+=======
+  background: {fileID: 8300000, guid: a2bb6ff0daaac454e927dcfbe69b755b, type: 3}
+>>>>>>> Stashed changes
+=======
+  background: {fileID: 8300000, guid: a2bb6ff0daaac454e927dcfbe69b755b, type: 3}
+>>>>>>> Stashed changes
 --- !u!4 &777412076
 Transform:
   m_ObjectHideFlags: 0
@@ -1140,7 +1148,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8fb7fe75871682f4cb964b4608a55dee, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a2bb6ff0daaac454e927dcfbe69b755b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

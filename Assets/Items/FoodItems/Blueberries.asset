@@ -13,6 +13,17 @@ MonoBehaviour:
   m_Name: Blueberries
   m_EditorClassIdentifier: 
   type: 5
+<<<<<<< Updated upstream:Assets/Items/FoodItems/Blueberries.asset
+<<<<<<< Updated upstream:Assets/Items/FoodItems/Blueberries.asset
   points: 22
   image: {fileID: 21300000, guid: 545015ace94be4310b1a254d5beccba0, type: 3}
   Food: blueberriesFruit
+=======
+=======
+>>>>>>> Stashed changes:Assets/Items/FoodItems/Grapes.asset
+  points: 16
+  image: {fileID: 21300000, guid: ceba6a2c8ed14408eb14d0d83b684f6a, type: 3}
+  Food: Grapes - 16 points
+  script: Grapes are packed with vitamin C, vitamin K, and antioxidants to keep your
+    brain sharp!
+>>>>>>> Stashed changes:Assets/Items/FoodItems/Grapes.asset

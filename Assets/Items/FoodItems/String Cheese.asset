@@ -10,18 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb92dc8f5adce8f4d874500c67b6ebfc, type: 3}
-  m_Name: Steak
+  m_Name: String Cheese
   m_EditorClassIdentifier: 
-  type: 0
+  type: 4
   points: 7
-  image: {fileID: 21300000, guid: 42fc78f8dd73f408d908d0d897dd45ed, type: 3}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  Food: steakProtein
-=======
-=======
->>>>>>> Stashed changes
-  Food: Steak - 7 points
-  script: Beef steak tastes great and is full of protein which helps your muscles
-    get stronger!
->>>>>>> Stashed changes
+  image: {fileID: 21300000, guid: 62f4c9f18f2bb4368b3f9b8c0a0bad53, type: 3}
+  Food: String Cheese - 7 points
+  script: "String cheese is a great source of protein and calcium\u2014plus, it\u2019s
+    a-moo-zing for your bones!"
