@@ -13,17 +13,8 @@ MonoBehaviour:
   m_Name: Yogurt
   m_EditorClassIdentifier: 
   type: 4
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  points: 14
-  image: {fileID: 21300000, guid: d016a2048731e4bcd9dc8b16e6032e5f, type: 3}
-  Food: yogurtDairy
-=======
-=======
->>>>>>> Stashed changes
   points: 10
-  image: {fileID: 21300000, guid: 64bc0728c775d45ea91ecc5bd5313eaa, type: 3}
+  image: {fileID: 21300000, guid: d016a2048731e4bcd9dc8b16e6032e5f, type: 3}
   Food: Yogurt - 10 points
   script: Yogurt has lots of calcium, vitamin b, and protein which helps keep your
     body strong and healthy
->>>>>>> Stashed changes

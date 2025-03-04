@@ -15,13 +15,6 @@ MonoBehaviour:
   type: 3
   points: 7
   image: {fileID: 21300000, guid: 0195221e0dcf34c38be816f95051a3a2, type: 3}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  Food: Smoothie
-=======
-=======
->>>>>>> Stashed changes
   Food: Smoothie - 7 points
   script: Smoothies are a yummy, colorful way to drink fruits and milk that give
     you energy and keep you feeling fresh!
->>>>>>> Stashed changes

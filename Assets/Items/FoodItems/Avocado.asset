@@ -15,13 +15,6 @@ MonoBehaviour:
   type: 5
   points: 13
   image: {fileID: 21300000, guid: f82311c807f4d46ecb13c2657a34daca, type: 3}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  Food: avocadoFruit
-=======
-=======
->>>>>>> Stashed changes
   Food: Avocado - 13 points
   script: Avocados are awesome for your heart, eyes, and bones, and they help your
     tummy with lots of fiber!
->>>>>>> Stashed changes
