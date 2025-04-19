@@ -132,13 +132,16 @@ public class LunchBoxManager : MonoBehaviour
     }
 
     public void updateTotalPoints() {
+        const int maxPoints = 95;
+        int normalizedPoints = Mathf.RoundToInt((sceneData.TotalPoints / (float)maxPoints) * 100);
+
         if (totalPointsTxt != null) { //update total points
-            totalPointsTxt.text = ($"{sceneData.TotalPoints}");
+            totalPointsTxt.text = ($"{normalizedPoints}");
             Debug.Log("set text");
         } else {
             Debug.Log("failed to set text");
             totalPointsTxt = GameObject.Find("tmpPoints").GetComponent<Text>(); //find text gameObject if u cannot find it manually
-            totalPointsTxt.text = ($"{sceneData.TotalPoints}"); //then update total points
+            totalPointsTxt.text = ($"{normalizedPoints}"); //then update total points
         }
     }
 
