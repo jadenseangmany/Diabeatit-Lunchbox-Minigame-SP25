@@ -132,7 +132,7 @@ public class LunchBoxManager : MonoBehaviour
     }
 
     public void updateTotalPoints() {
-        const int maxPoints = 95;
+        const int maxPoints = 105;
         int normalizedPoints = Mathf.RoundToInt((sceneData.TotalPoints / (float)maxPoints) * 100);
 
         if (totalPointsTxt != null) { //update total points
