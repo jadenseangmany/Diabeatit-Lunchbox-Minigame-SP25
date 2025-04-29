@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Yogurt
   m_EditorClassIdentifier: 
   type: 4
-  points: 14
+  points: 13
   image: {fileID: 21300000, guid: 64bc0728c775d45ea91ecc5bd5313eaa, type: 3}
   Food: Yogurt - 14 points
   script: Yogurt has lots of calcium, vitamin b, and protein which helps keep your
