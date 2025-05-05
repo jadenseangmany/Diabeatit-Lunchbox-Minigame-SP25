@@ -58,51 +58,12 @@ public class changeScene : MonoBehaviour
 
 
 
-    public void GoToSelectionMenu() { //unused now
+    public void GoToSelectionMenu() {
         SceneManager.LoadScene("SelectionMenu");
     }
     
-    public void GotoBoxRed() {
-        SceneManager.LoadScene("BoxRed");
-    }
 
-    public void GotoBoxYellow() {
-        SceneManager.LoadScene("BoxYellow");
-    }
-
-    public void GotoBoxBlue() {
-        SceneManager.LoadScene("BoxBlue");
-    }
-
-    public void GotoBoxPurple() {
-        SceneManager.LoadScene("BoxPurple");
-    }
-
-    public void GotoBoxPink() {
-        SceneManager.LoadScene("BoxPink");
-    }
-
-    public void GotoFinishBlue() {
-        SceneManager.LoadScene("FinishBlue");
-    }
-
-    public void GotoFinishRed() {
-        SceneManager.LoadScene("FinishRed");
-    }
-
-    public void GotoFinishYellow() {
-        SceneManager.LoadScene("FinishYellow");
-    }
-
-    public void GotoFinishPink() {
-        SceneManager.LoadScene("FinishPink");
-    }
-
-    public void GotoFinishPurple() {
-        SceneManager.LoadScene("FinishPurple");
-    }
-
-    public void GoToSceneFour() { // unsused now
+    public void GoToSceneFour() {
         SceneManager.LoadScene("finishScene");
         SceneManager.sceneLoaded += OnSceneLoaded; //check scene is loaded
     }
