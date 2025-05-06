@@ -1381,6 +1381,7 @@ MonoBehaviour:
   food4: {fileID: 0}
   food5: {fileID: 0}
   food6: {fileID: 0}
+  finalPointsText: {fileID: 0}
 --- !u!1 &844741751
 GameObject:
   m_ObjectHideFlags: 0

@@ -110,10 +110,11 @@ public class LunchBoxManager : MonoBehaviour
 
         total -= CalculateCategoryPenalty();
 
-        sceneData.TotalPoints = total;
 
         int normalizedPoints = Mathf.RoundToInt((total / (float)maxPoints) * 100);
         normalizedPoints = Mathf.Clamp(normalizedPoints, 0, 100);
+
+        sceneData.TotalPoints = normalizedPoints;
 
         if (totalPointsTxt != null)
         { //update total points
