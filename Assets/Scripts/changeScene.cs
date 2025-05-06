@@ -84,22 +84,27 @@ public class changeScene : MonoBehaviour
 
     public void GotoFinishBlue() {
         SceneManager.LoadScene("FinishBlue");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     public void GotoFinishRed() {
         SceneManager.LoadScene("FinishRed");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     public void GotoFinishYellow() {
         SceneManager.LoadScene("FinishYellow");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     public void GotoFinishPink() {
         SceneManager.LoadScene("FinishPink");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     public void GotoFinishPurple() {
         SceneManager.LoadScene("FinishPurple");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     public void GoToSceneFour() { // unsused now
@@ -114,12 +119,10 @@ public class changeScene : MonoBehaviour
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-    if (scene.name == "finishScene") {
-        totalPointsTxt = GameObject.Find("finalPoints").GetComponent<Text>();
-        displayTotalPoints();
-        displayFinalFoods();
-        SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe after handling
-    }
+    totalPointsTxt = GameObject.Find("finalPoints").GetComponent<Text>();
+    displayTotalPoints();
+    displayFinalFoods();
+    SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe after handling
 }
     
     //NOTE: EVERY METHOD BELOW IS FOR finishScene
