@@ -10,9 +10,8 @@ public class LunchBoxDisplay : MonoBehaviour
     public Text food1, food2, food3, food4, food5, food6; //declare foods
     public Text finalPointsText; // Reference to the final score text UI element
 
-    void Start() { LoadDrink(); LoadItemsFromSceneData(); ApplyFinalScoreWithBonus(); }
+    void Start() { LoadDrink(); LoadItemsFromSceneData();}
 
-    private LunchBoxManager lunchBoxManager;
 
     void LoadDrink()
     {
@@ -72,7 +71,7 @@ public class LunchBoxDisplay : MonoBehaviour
 
                     if (isPenalized)
                     {
-                        foodText.text = foodName + " (penalized)";
+                        foodText.text = foodName;
                         foodText.color = Color.red;
                     }
                     else
@@ -87,58 +86,6 @@ public class LunchBoxDisplay : MonoBehaviour
         {
             Debug.LogError($"Mismatch between number of items and slot positions! foodInSlots.Count: {sceneData.foodInSlots.Count}, slotPositions.Count: {sceneData.slotPositions.Count}");
         }
-    }
-
-    void ApplyFinalScoreWithBonus()
-    {
-
-        int bonus = CalculateBonusPairingPoints();
-        int finalTotal = sceneData.TotalPoints + bonus;
-
-        if (totalPointsTxt != null)
-            totalPointsTxt.text = finalTotal.ToString();
-        else
-            Debug.LogWarning("finalPointsText is not assigned in inspector!");
-
-        Debug.Log($"Base: {sceneData.TotalPoints}, Bonus: {bonus}, Final: {finalTotal}");
-    }
-
-    /* 
-    This is a function created to implement bonus points for lunch boxes with strategic food pairings.
-    This is done to encourage combining foods with complementary nutrients.
-    */
-    int CalculateBonusPairingPoints()
-    {
-        int bonus = 0;
-        List<string> selected = sceneData.receiptFood;
-
-        for (int i = 0; i < selected.Count; i++)
-        {
-            for (int j = i + 1; j < selected.Count; j++)
-            {
-                string a = selected[i];
-                string b = selected[j];
-
-                if ((a.StartsWith("Steak") && b.StartsWith("Bell Pepper")) || (a.StartsWith("Bell Pepper") && b.StartsWith("Steak")))
-                    bonus += 3;
-                else if ((a.StartsWith("Tofu") && b.StartsWith("Orange")) || (a.StartsWith("Orange") && b.StartsWith("Tofu")))
-                    bonus += 3;
-                else if ((a.StartsWith("Avocado") && b.StartsWith("Carrots")) || (a.StartsWith("Carrots") && b.StartsWith("Avocado")))
-                    bonus += 3;
-                else if ((a.StartsWith("Cheese") && b.StartsWith("Whole Grain Bread")) || (a.StartsWith("Whole Grain Bread") && b.StartsWith("Cheese")))
-                    bonus += 3;
-                else if ((a.StartsWith("Eggs") && b.StartsWith("Quinoa")) || (a.StartsWith("Quinoa") && b.StartsWith("Eggs")))
-                    bonus += 3;
-                else if ((a.StartsWith("Yogurt") && b.StartsWith("Banana")) || (a.StartsWith("Banana") && b.StartsWith("Yogurt")))
-                    bonus += 3;
-                else if ((a.StartsWith("Banana") && b.StartsWith("Water")) || (a.StartsWith("Water") && b.StartsWith("Banana")))
-                    bonus += 3;
-                else if ((a.StartsWith("Fish") && b.StartsWith("Grapes")) || (a.StartsWith("Grapes") && b.StartsWith("Fish")))
-                    bonus += 3;
-            }
-        }
-
-        return bonus;
     }
 
     void SpawnItemInSlot(Item item, FoodSlot slot)
