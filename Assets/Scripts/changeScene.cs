@@ -58,15 +58,59 @@ public class changeScene : MonoBehaviour
 
 
 
-    public void GoToSelectionMenu() {
+    public void GoToSelectionMenu() { //unused now
         SceneManager.LoadScene("SelectionMenu");
     }
     
+    public void GotoBoxRed() {
+        SceneManager.LoadScene("BoxRed");
+    }
 
-    public void GoToSceneFour() {
-        ApplyFinalScoreWithBonus();
+    public void GotoBoxYellow() {
+        SceneManager.LoadScene("BoxYellow");
+    }
+
+    public void GotoBoxBlue() {
+        SceneManager.LoadScene("BoxBlue");
+    }
+
+    public void GotoBoxPurple() {
+        SceneManager.LoadScene("BoxPurple");
+    }
+
+    public void GotoBoxPink() {
+        SceneManager.LoadScene("BoxPink");
+    }
+
+    public void GotoFinishBlue() {
+        SceneManager.LoadScene("FinishBlue");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    public void GotoFinishRed() {
+        SceneManager.LoadScene("FinishRed");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    public void GotoFinishYellow() {
+        SceneManager.LoadScene("FinishYellow");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    public void GotoFinishPink() {
+        SceneManager.LoadScene("FinishPink");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    public void GotoFinishPurple() {
+        SceneManager.LoadScene("FinishPurple");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    public void GoToSceneFour() { // unsused now
         SceneManager.LoadScene("finishScene");
         SceneManager.sceneLoaded += OnSceneLoaded; //check scene is loaded
+        ApplyFinalScoreWithBonus();
     }
 
     public void GoToPickBox()
@@ -76,12 +120,10 @@ public class changeScene : MonoBehaviour
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-    if (scene.name == "finishScene") {
-        totalPointsTxt = GameObject.Find("finalPoints").GetComponent<Text>();
-        displayTotalPoints();
-        displayFinalFoods();
-        SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe after handling
-    }
+    totalPointsTxt = GameObject.Find("finalPoints").GetComponent<Text>();
+    displayTotalPoints();
+    displayFinalFoods();
+    SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe after handling
 }
     
     //NOTE: EVERY METHOD BELOW IS FOR finishScene
