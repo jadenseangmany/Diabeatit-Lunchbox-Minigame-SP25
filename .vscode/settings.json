@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Diabeatit-Lunchbox-Minigame-WI25.sln"
+    "dotnet.defaultSolution": "Diabeatit-Lunchbox-Minigame-SP25.sln"
 }

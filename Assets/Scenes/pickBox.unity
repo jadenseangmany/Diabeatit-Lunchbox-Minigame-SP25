@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 865890304035416031, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d04e3b9f6b8424f948f9cf2e3b4e47a7, type: 3}
+      objectReference: {fileID: 21300000, guid: 0a3bc5fef7d83284db58c31c64d49c84, type: 3}
     - target: {fileID: 3837350654098440002, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Name
       value: RedBox
@@ -226,6 +226,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1973853638}
+    - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GotoBoxRed
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -247,7 +251,7 @@ PrefabInstance:
     - target: {fileID: 865890304035416031, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 64ff31aa104434a9491e07a4e1c60a7a, type: 3}
+      objectReference: {fileID: 21300000, guid: 6e88b337f8926ce4ea048ce80921bf1a, type: 3}
     - target: {fileID: 3837350654098440002, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Name
       value: BlueBox
@@ -341,6 +345,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1973853638}
     - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GotoBoxBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
       objectReference: {fileID: 0}
@@ -365,7 +373,7 @@ PrefabInstance:
     - target: {fileID: 865890304035416031, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 85af55dd0e74845eb88ddfb3640842c9, type: 3}
+      objectReference: {fileID: 21300000, guid: 21e151e6c20862047943797d3db5f75f, type: 3}
     - target: {fileID: 3837350654098440002, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Name
       value: PinkBox
@@ -458,6 +466,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1973853638}
+    - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GotoBoxPink
+      objectReference: {fileID: 0}
     - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
@@ -718,7 +730,7 @@ PrefabInstance:
     - target: {fileID: 865890304035416031, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e05a9c8e28754fb0adb49443bc1ab62, type: 3}
+      objectReference: {fileID: 21300000, guid: 57ff2f815c0ebee4b91d3eef84345a6e, type: 3}
     - target: {fileID: 3837350654098440002, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Name
       value: PurpleBox
@@ -811,6 +823,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1973853638}
+    - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GotoBoxPurple
+      objectReference: {fileID: 0}
     - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
@@ -1144,6 +1160,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1973853637}
     m_Modifications:
+    - target: {fileID: 865890304035416031, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b9857f05bacc6849ab1c4b541614f69, type: 3}
     - target: {fileID: 3837350654098440002, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_Name
       value: YellowBox
@@ -1236,6 +1256,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1973853638}
+    - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: GotoBoxYellow
+      objectReference: {fileID: 0}
     - target: {fileID: 6267820429435280911, guid: c6b5bad2fdd0d5f44a28c7abdc7013ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
