@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Carrots
   m_EditorClassIdentifier: 
   type: 1
-  points: 22
+  points: 21
   image: {fileID: 21300000, guid: e3947587327a947fc80f6d339fc8b91f, type: 3}
   Food: Carrot - 22 points
   script: Did you know that eating carrots 3 times a week helps your body make vitamin

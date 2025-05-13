@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fish
   m_EditorClassIdentifier: 
   type: 0
-  points: 22
+  points: 21
   image: {fileID: 21300000, guid: fffa43876d67849e8a014ea2efee5eff, type: 3}
   Food: Fish - 22 points
   script: 'Eating fish once will help your heart and brain stay super healthy. This
